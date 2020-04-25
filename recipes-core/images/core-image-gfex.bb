@@ -7,8 +7,8 @@ IMAGE_INSTALL += "devmem2"
 IMAGE_INSTALL += "git"
 IMAGE_INSTALL += "ldd"
 
-IMAGE_INSTALL += "python-ironman"
-IMAGE_INSTALL += "python-periphery"
+IMAGE_INSTALL += "python3-ironman"
+IMAGE_INSTALL += "python3-periphery"
 
 IMAGE_INSTALL_append_gfex-prototype4 += "init-clock"
 IMAGE_INSTALL_append_gfex-prototype4 += "init-auto-shutdown"
