@@ -12,10 +12,10 @@ PV = "1.0+git${SRCPV}"
 SRCREV ?= "921c56330955ccdad91715989db522683485c235"
 #SRCREV ?= "e9eadf3279392700869305a9b93acd6c133e2a32"
 
-inherit cmake pythonnative
+inherit cmake python3native
 
 RDEPENDS_${PN} += "boost"
-DEPENDS += "boost boost-native python-dev python-lxml-native xsd-native xerces-c python-enum34-native python-six-native python-jinja2-native python-markupsafe-native"
+DEPENDS += "boost boost-native python3 python3-lxml-native xsd-native xerces-c python3-six-native python3-jinja2-native python3-markupsafe-native"
 
 # install it correctly, manually
 do_install() {
